@@ -1,0 +1,104 @@
+.brandnavbar {
+  width: 100px;
+  height: 90px;
+  margin-left: 30px;
+}
+.headnavbar {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 2;
+  width: 100%;
+  background-color: rgb(40, 30, 100);
+  margin-bottom: 0px;
+}
+.navabrs {
+  background-color: rgb(40, 30, 100);
+  width: 100%;
+  margin-left: 0px;
+}
+.xalqrasm {
+  width: 90px;
+
+  margin: 10px;
+}
+.navbarlar {
+  /* margin-left: 400px; */
+  align-items: center;
+  text-align: center;
+  margin: 20px;
+  font-size: 20px;
+  margin-left: 250px;
+}
+
+button.navbar-toggler {
+  background-color: red !important;
+}
+
+.navbarlar {
+  margin-left: 200px;
+}
+
+.conta button {
+  background-color: rgb(40, 30, 100);
+  color: aqua;
+}
+.conta button span {
+  color: aqua;
+}
+
+@media only screen and (max-width: 1210px) {
+  .navbarlar {
+    margin-left: 40px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .navbarlar {
+    margin-left: 20px;
+  }
+  .headnavbar .xalqrasm {
+    width: 100px;
+    height: 100px;
+  }
+  .brandnavbar {
+    width: 100px;
+    height: 60px;
+  }
+}
+@media only screen and (max-width: 360px) {
+  .navbarlar {
+    margin-left: 0px;
+  }
+  .headnavbar .xalqrasm {
+    width: 60px;
+    height: 60px;
+
+    margin-left: -15px;
+  }
+  .conta {
+    margin-left: 0px;
+  }
+  .navbarlar icon {
+    margin-left: -10px;
+  }
+}
+@media only screen and (min-width: 280px) {
+  /* .navbarlar {
+    margin-left: 0px;
+  } */
+  .headnavbar .xalqrasm {
+    width: 80px;
+    height: 80px;
+
+    margin-top: 0px;
+    margin-left: 115px;
+  }
+
+  .conta {
+    margin-left: 0px;
+  }
+  .navbarlar icon {
+    margin-left: -10px;
+  }
+}

@@ -1,0 +1,309 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+}
+
+.titlecontact {
+  text-align: center;
+  font-size: 60px;
+  font-weight: bold;
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
+  /* background-color: black; */
+  color: white;
+  padding: 10px;
+}
+.bodycontact {
+  margin: auto;
+  background-color: white;
+}
+.mapcontact {
+  width: 50%;
+  /* border: 2px solid blue; */
+  height: 100%;
+}
+.inputbox {
+  border: 1px solid grey;
+  padding: 0px;
+  margin: 5px;
+}
+.iframe {
+  width: 600px;
+  height: 400px;
+}
+
+.inputbox input {
+  background-color: transparent;
+  list-style-type: none;
+  border: none;
+  padding-left: 5px;
+  color: black;
+  text-decoration: none;
+  margin-left: 10px;
+  width: 400px;
+  height: 40px;
+}
+.icons {
+  color: black;
+  margin-left: 10px;
+}
+.formcontact h1 {
+  text-align: center;
+  font-size: 40px;
+
+  margin-bottom: 20px;
+  font-family: monospace;
+  color: rgb(67, 64, 64);
+  font-weight: 800;
+  /* margin: 40px; */
+  margin-top: 20px;
+}
+.titleh1 {
+  text-align: center;
+  font-size: 40px;
+
+  margin-bottom: 20px;
+  font-family: monospace;
+  color: rgb(67, 64, 64);
+  font-weight: 800;
+  /* margin: 40px; */
+  margin-top: 20px;
+}
+.formm {
+  width: 400px;
+  height: 380px;
+  margin: auto;
+  background: linear-gradient(
+    to top,
+    rgb(40, 30, 100) 50%,
+    rgb(40, 30, 100) 50%
+  );
+  /* position: absolute; */
+  /* top: -20px;
+  left: 870px; */
+  border-radius: 10px;
+  padding: 25px;
+}
+.murojaatlar {
+  margin-left: 50px;
+}
+.formm h2 {
+  width: 220px;
+  font-family: sans-serif;
+  text-align: center;
+  color: black;
+  font-weight: 600;
+  font-size: 22px;
+  background-color: #fff;
+  border-radius: 10px;
+  margin: 2px;
+  padding: 8px;
+}
+.formm input {
+  width: 360px;
+  height: 35px;
+  background: transparent;
+  border-bottom: 1px solid orangered;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  color: #fff;
+  font-size: 15px;
+  letter-spacing: 1px;
+  margin-top: 30px;
+  font-family: sans-serif;
+}
+.formm textarea {
+  width: 360px;
+  /* height: 35px; */
+  background: transparent;
+  border-bottom: 1px solid orangered;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  color: #fff;
+  font-size: 15px;
+  letter-spacing: 1px;
+  margin-top: 30px;
+  font-family: sans-serif;
+}
+.formm input:focus {
+  outline: none;
+}
+.formm textarea:focus {
+  outline: none;
+}
+::placeholder {
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.cardT {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.btnn {
+  width: 240px;
+  height: 40px;
+  background: orangered;
+  border: none;
+  margin: 30px 50px;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #fff;
+  transition: 0.4s ease;
+}
+.btnn:hover {
+  background: rgb(40, 30, 100);
+  border: 1px solid orangered;
+}
+
+.btnn a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+.formm .link {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  padding-top: 20px;
+  text-align: center;
+}
+.formm .link a {
+  text-decoration: none;
+  color: orangered;
+}
+
+.liw {
+  padding-top: 15px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+@media only screen and (max-width: 360px) {
+  .murojaatlar {
+    margin-left: 0px;
+  }
+  .formm input {
+    width: 270px;
+    height: 35px;
+  }
+  .formm textarea {
+    width: 270px;
+    height: 35px;
+  }
+  .formm {
+    width: 320px;
+  }
+  .btnn {
+    margin: 10px 15px;
+    /* background: red; */
+  }
+}
+@media only screen and (min-width: 360px) {
+  .murojaatlar {
+    margin-left: 0px;
+  }
+  .formm input {
+    width: 270px;
+    height: 35px;
+  }
+  .formm textarea {
+    width: 270px;
+    height: 35px;
+  }
+  .formm {
+    width: 320px;
+  }
+  .btnn {
+    margin: 10px 15px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .murojaatlar {
+    margin-left: 0px;
+  }
+  .formm input {
+    width: 430px;
+    height: 35px;
+  }
+  .formm textarea {
+    width: 430px;
+    height: 35px;
+  }
+  .formm {
+    width: 520px;
+  }
+  .btnn {
+    margin: 10px 75px;
+  }
+}
+@media only screen and (min-width: 902px) {
+  .murojaatlar {
+    margin-left: 0px;
+  }
+  .formm input {
+    width: 450px;
+    height: 35px;
+  }
+  .formm textarea {
+    width: 450px;
+    height: 35px;
+  }
+  .formm {
+    width: 530px;
+  }
+  .btnn {
+    margin: 10px 95px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .murojaatlar {
+    margin-left: 0px;
+  }
+  .formm input {
+    width: 360px;
+    height: 35px;
+  }
+  .formm textarea {
+    width: 360px;
+    height: 35px;
+  }
+  .formm {
+    width: 400px;
+  }
+  .btnn {
+    margin: 30px 50px;
+  }
+  .iframe {
+    width: 400px;
+    height: 350px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .murojaatlar {
+    margin-left: 80px;
+  }
+  .formm input {
+    width: 360px;
+    height: 35px;
+  }
+  .formm textarea {
+    width: 360px;
+    height: 35px;
+  }
+  .formm {
+    width: 400px;
+  }
+  .btnn {
+    margin: 30px 50px;
+  }
+  .iframe {
+    width: 600px;
+    height: 380px;
+  }
+}

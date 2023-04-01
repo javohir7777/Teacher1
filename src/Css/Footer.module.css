@@ -1,0 +1,126 @@
+.Footerhead ul li {
+  list-style-type: none;
+  color: white;
+  font-weight: 500;
+  margin-top: 10px;
+  font-size: 20px;
+}
+.ul2 {
+  /* margin-left: 100px; */
+  text-align: center;
+}
+.Footerhead {
+  background-color: rgb(40, 30, 100);
+  overflow-x: hidden;
+  margin-top: 20px;
+  align-items: center;
+  text-align: center;
+}
+.ByIt {
+  color: orangered;
+  font-size: 20px;
+  text-align: center;
+  font-style: normal;
+  font-family: sans-serif;
+}
+.ByIt a {
+
+  color: orangered;
+  font-size: 20px;
+  text-align: center;
+  font-style: normal;
+  font-family: sans-serif;
+}
+
+.footerxalq {
+  margin-top: 40px;
+  width: 180px;
+  height: auto;
+  align-items: center;
+  text-align: center;
+}
+.havolalar {
+  font-size: 25px;
+  margin-top: 20px;
+  color: orangered;
+  border-bottom: 3px solid orangered;
+}
+.ijsahifa {
+  color: white;
+}
+.sarlavhaa {
+  color: orangered;
+  margin-top: 40px;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.chiziqq {
+  width: 200px;
+  height: 4px;
+  background-color: orangered;
+  margin-top: -20px;
+  margin-bottom: 20px;
+  animation-name: chiziq;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes chiziq {
+  0% {
+    margin-left: 0px;
+  }
+  50% {
+    margin-left: calc(100% - 200px);
+  }
+  100% {
+    margin-left: 0px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  /* .ul2 {
+    margin-left: 360px;
+  } */
+}
+@media only screen and (max-width: 920px) {
+  /* .ul2 {
+    margin-left: 330px;
+  } */
+}
+@media only screen and (max-width: 720px) {
+  /* .ul2 {
+    margin-left: 230px;
+  } */
+}
+@media only screen and (max-width: 600px) {
+  .Footerhead .footerxalq {
+    width: 130px;
+    /* height: 50px; */
+  }
+  .Footerhead .ByIt {
+    font-size: 20px;
+  }
+  /* .ul2 {
+    margin-left: 170px;
+  } */
+}
+@media only screen and (max-width: 450px) {
+  .Footerhead .footerxalq {
+    width: 130px;
+    height: auto;
+  }
+  /* .ul2 {
+    margin-left: 140px;
+  } */
+}
+@media only screen and (max-width: 360px) {
+  .Footerhead .footerxalq {
+    width: 130px;
+    /* height: 100px; */
+  }
+  .Footerhead .ByIt {
+    font-size: 15px;
+  }
+  /* .ul2 {
+    margin-left: 80px;
+  } */
+}

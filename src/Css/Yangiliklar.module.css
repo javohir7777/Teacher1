@@ -1,0 +1,91 @@
+.rasmlar {
+  padding: 50px 10%;
+  margin-top: 100vh;
+  background-color: white;
+}
+.rasmlar img {
+  width: 100%;
+  height: 230px;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  transition: 1s;
+  border-radius: 10px;
+}
+.rasmlar img:hover {
+  transform: scale(1.1, 1.1);
+  border-radius: 0px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+.imag {
+  width: 80%;
+  margin: auto;
+}
+
+.newsY img {
+  width: 100%;
+}
+.newsY {
+  padding: 50px 10%;
+  margin-top: 100vh;
+  background-color: white;
+}
+
+.newsY h1 {
+  font-size: 27px;
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  margin-top: 40px;
+}
+.yozuv p:nth-child(even) {
+  font-size: 18px;
+  margin-top: 20px;
+  text-align: center;
+}
+.yozuv p:nth-child(odd) {
+  font-size: 16px;
+  margin-top: 20px;
+}
+.yozuv p i {
+  margin-right: 10px;
+}
+@media (max-width: 700px) {
+  .rasmlar {
+    margin-top: 70vh;
+  }
+  .newsY {
+    margin-top: 70vh;
+  }
+  .newsY h1 {
+    font-size: 25px;
+  }
+}
+@media (min-width: 1650px) {
+  .rasmlar img {
+    height: 400px;
+  }
+  .newsY h1 {
+    font-size: 33px;
+  }
+  .yozuv p:nth-child(even) {
+    font-size: 23px;
+    margin-top: 20px;
+    text-align: center;
+  }
+  .yozuv p:nth-child(odd) {
+    font-size: 21px;
+    margin-top: 20px;
+  }
+}
+@media (min-width: 701px) and (max-width: 900px) {
+  .rasmlar {
+    margin-top: 40vh;
+  }
+  .newsY {
+    margin-top: 50vh;
+  }
+  .newsY h1 {
+    font-size: 25px;
+  }
+}

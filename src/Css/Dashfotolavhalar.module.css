@@ -1,0 +1,24 @@
+.sarlavha {
+  font-family: monospace;
+  color: rgb(67, 64, 64);
+  font-weight: 800;
+  /* margin: 40px; */
+  margin-top: 20px;
+  text-align: center;
+}
+.head {
+  border-radius: 10px;
+  margin: 50px;
+  margin-top: 20px;
+  background-color: white;
+  padding: 10px;
+  
+}
+.head img{box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  transition: 0.5s;
+  border:5px solid white; width:100%; }
+.head img:hover {
+  transform: scale(1.1, 1.1);
+  border-color:rgb(40, 30, 100);
+}
+.img{padding:20px}

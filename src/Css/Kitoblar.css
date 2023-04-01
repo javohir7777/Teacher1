@@ -1,0 +1,197 @@
+section {
+  width: 100%;
+  color: rgba(0, 0, 0, 0.733);
+  background-color: white;
+}
+summary {
+  display: block;
+  cursor: pointer;
+  padding: 10px;
+  font-family: "Space Mono", monospace;
+  font-size: 22px;
+  transition: 0.3s;
+
+  user-select: none;
+}
+details > div {
+  display: flex;
+  flex-wrap: wrap;
+  overflow: auto;
+  height: 100%;
+  user-select: none;
+  padding: 0 20px;
+  font-family: "Karla", sans-serif;
+  line-height: 1.5;
+}
+details > div > img {
+  align-self: flex-start;
+  max-width: 100%;
+  margin-top: 20px;
+}
+details > div > p {
+  flex: 1;
+}
+details[open] > summary {
+  color: red;
+}
+@media (min-width: 768px) {
+  details[open] > div > p {
+    opacity: 0;
+    animation-name: showContent;
+    animation-duration: 0.6s;
+    animation-delay: 0.2s;
+    animation-fill-mode: forwards;
+    margin: 0;
+    padding-left: 20px;
+  }
+  details[open] > div {
+    animation-name: slideDown;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+  }
+  details[open] > div > img {
+    opacity: 0;
+    height: 100%;
+    margin: 0;
+    animation-name: showImage;
+    animation-duration: 0.3s;
+    animation-delay: 0.15s;
+    animation-fill-mode: forwards;
+  }
+}
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    height: 0;
+    padding: 0;
+  }
+  to {
+    opacity: 1;
+    height: var(--contentHeight);
+    padding: 20px;
+  }
+}
+@keyframes showImage {
+  from {
+    opacity: 0;
+    clip-path: inset(50% 0 50% 0);
+    transform: scale(0.4);
+  }
+  to {
+    opacity: 1;
+    clip-path: inset(0 0 0 0);
+  }
+}
+@keyframes showContent {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.sinf {
+  margin: auto;
+  text-align: center;
+  color: black;
+  display: flex;
+}
+.kart1 p {
+  font-size: 23px;
+}
+.sinf img {
+  margin: auto;
+  align-items: center;
+  text-align: center;
+  width: 300px;
+}
+.kart1 {
+  box-shadow: rgb(0, 0, 255, 0.4) 5px 5px, rgba(0, 0, 255, 0.3) 10px 10px,
+    rgba(0, 0, 255, 0.2) 15px 15px, rgba(0, 0, 255, 0.1) 20px 20px,
+    rgba(0, 0, 255, 0.05) 25px 25px;
+  display: flex;
+  margin: 20px;
+  position: relative;
+}
+.kardrasm {
+  margin: auto;
+  text-align: center;
+}
+
+.kardrasm img {
+  padding: 10px;
+  margin: auto;
+  align-items: center;
+  text-align: center;
+  width: 300px;
+}
+.kardrasm .yulduz {
+  margin: 10px;
+}
+.head {
+  overflow-x: hidden;
+}
+
+@media (max-width: 991px) {
+  .kart1 {
+    box-shadow: rgb(0, 0, 255, 0.4) 5px 5px, rgba(0, 0, 255, 0.3) 10px 10px,
+      rgba(0, 0, 255, 0.2) 15px 15px, rgba(0, 0, 255, 0.1) 20px 20px,
+      rgba(0, 0, 255, 0.05) 25px 25px;
+    display: block;
+    width: 90%;
+    margin: 20px;
+    position: relative;
+    overflow-x: hidden;
+    padding: 10px;
+  }
+  .kart1 p {
+    font-size: 15px;
+  }
+}
+
+.cart {
+  min-height: 300px;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+  display: flex;
+  margin: 20px;
+  padding: 20px;
+}
+.kitob {
+  margin-right: 20px;
+  display: block;
+  width: 30%;
+}
+.kitob img {
+  width: 100%;
+  height: 230px;
+}
+.sharh {
+  display: block;
+  width: 70%;
+}
+.sharh h3 {
+  margin: auto;
+  text-align: center;
+}
+.sharh a {
+  margin: 30px;
+}
+
+@media (max-width: 600px) {
+  .cart {
+    width: 100%;
+    display: block;
+    margin: 20px;
+    padding: 20px;
+  }
+  .kitob {
+    margin-right: 20px;
+    display: block;
+    width: 100%;
+  }
+  .sharh {
+    display: block;
+    width: 100%;
+  }
+}

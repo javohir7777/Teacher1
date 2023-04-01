@@ -1,0 +1,226 @@
+.karasel {
+  margin-top: 102px;
+  z-index: 1;
+}
+.radio {
+  align-items: center;
+}
+.radio img {
+  /* width: auto; */
+  height: auto;
+}
+.radionipisi {
+  color: white;
+  margin-top: 10px;
+
+  margin-left: 10px;
+}
+.ifdiv h3 {
+  margin-left: 10px;
+  color: white;
+  margin-top: 12px;
+}
+.radionipisi a {
+  padding: 10px;
+  margin-top: 60px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: rgb(40, 30, 100);
+  transition: 0.3s;
+  border: 1px solid orangered;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  width: 200px;
+  text-align: center;
+}
+.radionipisi a:hover {
+  background-color: orangered;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+@media only screen and (max-width: 450px) {
+  .dashboardhead img {
+    height: 400px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .karasel {
+    margin-top: 56px;
+  }
+}
+.dashboardhead {
+  overflow-x: hidden;
+  /* background-image: url("../Img/naqsh4.jpg"); */
+}
+
+.head {
+  width: 100%;
+  height: calc(100vh - 100px);
+  margin-top: 100px;
+  background-color: rgb(40, 30, 100);
+}
+.head h1 {
+  margin-top: 100px;
+  color: white;
+  width: 100%;
+  font-size: 45px;
+}
+.head p {
+  margin-top: 20px;
+  color: white;
+  width: 100%;
+  font-size: 20px;
+}
+.head a {
+  padding: 10px;
+  margin-top: 60px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: rgb(40, 30, 100);
+  transition: 0.3s;
+  border: 1px solid orangered;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  width: 250px;
+  text-align: center;
+}
+.head a:hover {
+  background-color: orangered;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.rasm {
+  padding: 20px;
+
+  margin: 30px 100px;
+  transform: rotate(0deg);
+  position: relative;
+}
+.rasm img {
+  width: 100%;
+  transition: 1s;
+}
+.rasm::before {
+  content: "";
+  transform: rotate(0deg);
+  width: 100%;
+  height: 100%;
+  background-color: orangered;
+  transition: 1s;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: -2;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.rasm::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  transform: rotate(45deg);
+  background-color: rgb(40, 30, 100);
+  transition: 1s;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.rasm:hover::after {
+  transform: rotate(135deg);
+}
+.rasm:hover::before {
+  transform: rotate(-90deg);
+}
+.rasm:hover img {
+  transform: scale(1.1, 1.1);
+}
+@media (max-width: 950px) {
+  .head {
+    height: calc(100vh - 300px);
+  }
+  .head1 {
+    display: none !important;
+  }
+
+  .rasm {
+    margin: 20px;
+    top: 40px;
+  }
+  .rasm img {
+    height: auto;
+    /* width: 100%; */
+  }
+  /* .rasm::after {
+    width: 80%;
+    height: 80%;
+  }
+  .rasm::before {
+    width: 80%;
+    height: 80%;
+  } */
+  /* .rasm {
+    width: 60%;
+    margin: auto;
+  } */
+}
+
+@media (max-width: 600px) {
+  .rasm {
+    width: 50%;
+    margin: auto;
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 950px) {
+  .head {
+    margin-top: 30px;
+  }
+  .rasm {
+    width: 60%;
+    margin: auto;
+    margin-top: 30px;
+  }
+}
+@media (min-width: 951px) {
+  .rasm {
+    display: none;
+  }
+}
+@media (min-width: 992px) {
+  .rasm {
+    display: block;
+  }
+}
+
+.if {
+  width: 80%;
+  margin-left: 10%;
+  height: 500px;
+  z-index: 34;
+  margin-top: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.ifdiv {
+  width: 100%;
+  padding: 30px 0px 50px 0px;
+  background-color: rgb(40, 30, 100);
+  z-index: -1;
+}
+@media (max-width: 600px) {
+  .if {
+    width: 90%;
+    margin-left: 5%;
+  }
+  .afterrasm {
+    margin-top: 100px;
+  }
+}
